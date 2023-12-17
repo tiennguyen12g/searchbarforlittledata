@@ -1,0 +1,31 @@
+# Ignore development and build files
+__tests__
+node_modules/
+build/
+dist/
+coverage/
+
+# Ignore configuration files
+*.config.js
+*.config.ts
+*.d.ts
+*.map
+
+# Ignore version control files
+.git
+.gitignore
+.gitattributes
+
+# Ignore editor and IDE files
+.vscode/
+.idea/
+*.sublime-*
+*.vscode-*
+
+# Ignore package manager files
+package-lock.json
+yarn.lock
+
+# Ignore build and deployment scripts
+*.sh
+*.bat
