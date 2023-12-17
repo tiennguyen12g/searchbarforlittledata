@@ -3,12 +3,15 @@
 ### Document
 This librady for me
 
-//Declare props
+### Declare props
+```bash
 interface DataSearchProps {
   iconArticle?: string,
   articleTitle: string,
   href: string,
 }
+```
+```bash
 interface SearchBarProps {
   searchBarStyles?: CSSProperties,
   tooltipStyles?:CSSProperties,
@@ -19,7 +22,11 @@ interface SearchBarProps {
   dataSearch: DataSearchProps[];
   inputPlaceholder?: string;
 }
+```
+
+```bash
 interface SearchResultProps{
   articleTitle:string,
   href: string
 }
+```
